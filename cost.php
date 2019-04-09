@@ -63,7 +63,7 @@ if ($err) {
     echo 
     "<tr>
       <td>" . $service . ", " . $service_detail . "</td>
-      <td> Rp. " . $cost . "</td>
+      <td> Rp. " . number_format($cost , 0, ',', '.') . "</td>
       <td>" . $etd . " hari </td>
     </tr>";
 
