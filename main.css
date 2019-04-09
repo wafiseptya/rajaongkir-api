@@ -1,0 +1,10 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  padding: 5em;
+}
+p {
+  margin: 0;
+}
+.card {
+  background-color: #f3f3f3;
+}
